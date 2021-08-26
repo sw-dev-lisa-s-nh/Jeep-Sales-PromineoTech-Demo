@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: jeep
+    username: jeep
+    url:  jdbc:mysql://localhost:3306/jeep?useTimezone=true&serverTimezone=EST
+
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
